@@ -57,6 +57,7 @@ SOURCES += src/main.cpp \
     src/image/builtinimagewriter.cpp \
     src/exporters/zfiexporter.cpp \
     src/image/targawriter.cpp \
+    src/image/xoloximagewriter.cpp \
     src/fonttestframe.cpp \
     src/fonttestwidget.cpp \
     src/exporters/divoexporter.cpp \
@@ -72,7 +73,8 @@ SOURCES += src/main.cpp \
     src/exporters/myguiexporter.cpp \
     src/exporters/bmfontexporter.cpp \
     src/exporters/ageexporter.cpp \
-    src/exporters/jsonfontexporter.cpp
+    src/exporters/jsonfontexporter.cpp \
+    src/exporters/xoloxexporter.cpp
 
 HEADERS += src/fontbuilder.h \
     src/colorbutton.h \
@@ -100,6 +102,7 @@ HEADERS += src/fontbuilder.h \
     src/image/builtinimagewriter.h \
     src/exporters/zfiexporter.h \
     src/image/targawriter.h \
+    src/image/xoloximagewriter.h \
     src/fonttestframe.h \
     src/fonttestwidget.h \
     src/exporters/divoexporter.h \
@@ -115,7 +118,8 @@ HEADERS += src/fontbuilder.h \
     src/exporters/myguiexporter.h \
     src/exporters/bmfontexporter.h \
     src/exporters/ageexporter.h \
-    src/exporters/jsonfontexporter.h
+    src/exporters/jsonfontexporter.h \
+    src/exporters/xoloxexporter.h
 
 FORMS += src/fontbuilder.ui \
     src/fontselectframe.ui \
